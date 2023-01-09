@@ -1,0 +1,89 @@
+@media (max-width: 62.5rem) {
+    html {
+        font-size: 0.875rem;
+    }
+    .btn-t-g span {
+        width: 100%;
+        display: block;
+        margin-bottom: 0.625rem;
+    }
+}
+
+@media (max-width: 51.25rem) {
+    .time-end .btn {
+        font-size: 1.125rem;
+    }
+}
+
+@media (max-width: 48rem) {
+    .time-end {
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        padding: 0.9375rem !important;
+    }
+    .time-end .left {
+        margin-bottom: 1.25rem;
+    }
+}
+
+@media (max-width: 37.4375rem) {
+    .testing-w {
+        flex-wrap: wrap;
+    }
+    .testing-w .left {
+        width: 100%;
+    }
+    .testing-l {
+        height: auto;
+        flex-direction: row;
+        overflow-x: scroll;
+        overflow-y: hidden;
+        width: 100%;
+    }
+    .testing-l .question-i {
+        display: inline-block;
+        margin-right: 0.9375rem;
+        padding: 0.625rem 0.9375rem;
+        margin-bottom: 0;
+    }
+    .testing-l::-webkit-scrollbar {
+        display: none;
+    }
+    .question-g {
+        min-height: auto;
+    }
+    .tab-h {
+        display: flex;
+        overflow: auto;
+        flex: none;
+        scroll-snap-type: x mandatory;
+    }
+    .tab-h-l {
+        flex: none;
+    }
+    .btn-c-g .btn {
+        padding: 0.625rem !important;
+    }
+    .time-end,
+    .time-end .left {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .start-page .btn-xxl {
+        width: 100%;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+    }
+    .wlike {
+        font-size: 2.5rem;
+    }
+    .welcome {
+        font-size: 1.5rem;
+    }
+    .welcome b {
+        display: inline-block;
+    }
+}

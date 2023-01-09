@@ -1,0 +1,36 @@
+/* cyrillic-ext */
+
+@font-face {
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-display: swap;
+    src: url(../fonts/Roboto-Regular.ttf );
+}
+
+@font-face {
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-display: swap;
+    src: url(../fonts/Roboto-Medium.ttf );
+}
+
+@font-face {
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-display: swap;
+    src: url(../fonts/Roboto-Bold.ttf );
+}
+
+@font-face {
+    font-family: 'Roboto';
+    font-weight: 800;
+    font-display: swap;
+    src: url(../fonts/Roboto-Black.ttf );
+}
+
+@font-face {
+    font-family: 'SVN-anas';
+    font-weight: 400;
+    font-display: swap;
+    src: url(../fonts/SVN-Anastasia.ttf );
+}
