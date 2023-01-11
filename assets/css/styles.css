@@ -111,11 +111,12 @@ a {
 }
 
 .user-info {
-    background-image: url(../images/bg-info.png);
+    /* background-image: url(../images/bg-info.png); */
     background-size: cover;
     background-repeat: no-repeat;
     background-position: top center;
-    color: #ffffff;
+    /* color: #ffffff; */
+    background: #eeeff4;
 }
 
 .user-label {
@@ -310,10 +311,11 @@ tr:hover {
 
 .testing-w .left {
     width: 9.375rem;
+    border-right: solid 1px #e1e1e1;
 }
 
 .testing-w .left .w {
-    background: var(--dask-blue);
+    /* background: var(--dask-blue); */
     padding: 0.625rem 0.3125rem;
 }
 
@@ -347,14 +349,14 @@ tr:hover {
 /* Track */
 
 .testing-l::-webkit-scrollbar-track {
-    background: #1479d0;
+    background: #e1e1e1;
 }
 
 
 /* Handle */
 
 .testing-l::-webkit-scrollbar-thumb {
-    background: #1767ad;
+    background: #d1d1d1;
 }
 
 .fs-18 {
@@ -428,7 +430,11 @@ tr:hover {
 }
 
 .user-info .line-1 {
-    opacity: 0.3;
+    opacity: 0;
+}
+
+.user-info .btn-light {
+    border-color: #999999 !important;
 }
 
 .header nav {
