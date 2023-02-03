@@ -6,6 +6,7 @@
     --blue: #1504ff;
     --orange: #f8843d;
     --red: #ff0000;
+    --light: #d5d7db;
 }
 
 body {
@@ -311,7 +312,7 @@ tr:hover {
 
 .testing-w .left {
     width: 9.375rem;
-    border-right: solid 1px #e1e1e1;
+    border-right: solid 0.0625rem #e1e1e1;
 }
 
 .testing-w .left .w {
@@ -349,6 +350,10 @@ tr:hover {
 /* Track */
 
 .testing-l::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+.testing-l:hover::-webkit-scrollbar-track {
     background: #e1e1e1;
 }
 
@@ -356,6 +361,10 @@ tr:hover {
 /* Handle */
 
 .testing-l::-webkit-scrollbar-thumb {
+    background: transparent;
+}
+
+.testing-l:hover::-webkit-scrollbar-thumb {
     background: #d1d1d1;
 }
 
@@ -550,5 +559,19 @@ tr:hover {
 .m-h-c {
     margin-bottom: 0;
     text-align: center;
-    width: calc(100% - 50px);
+    width: calc(100% - 3.125rem);
+}
+
+.bg-light {
+    background: var(--light);
+}
+
+.answer-status {
+    background: var(--red);
+    width: fit-content;
+    color: white;
+    padding: 0.5rem 1.875rem;
+    font-size: 1.125rem;
+    margin-top: 1.25rem;
+    font-weight: bold;
 }
